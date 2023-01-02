@@ -1,0 +1,16 @@
+[
+    {
+        "id": "012bfa51-8ad9-4cc8-bd6b-76bf1464487b",
+        "name": "Challenger",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "3f22b600-58cb-428c-b766-501da707d8d7",
+        "name": "Ranchero",
+        "releaseYear": 2018,
+        "available": true,
+        "gasAvailable": true
+    }
+]
