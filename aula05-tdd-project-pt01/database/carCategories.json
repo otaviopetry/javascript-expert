@@ -1,11 +1,1 @@
-[
-    {
-        "id": "92a8e908-84cd-48fb-a8d2-d81dacd1461c",
-        "name": "Wagon",
-        "carIds": [
-            "012bfa51-8ad9-4cc8-bd6b-76bf1464487b",
-            "3f22b600-58cb-428c-b766-501da707d8d7"
-        ],
-        "price": "69.73"
-    }
-]
+[{"id":"042303b6-0564-4bee-a16a-141a0b94d1a9","name":"Convertible","carIds":["6df0d6f5-ec1a-4508-a370-b3b013b894fe","fbf9e4b6-9f09-4f5d-9e48-2a488f8cec8f"],"price":"96.61"}]
