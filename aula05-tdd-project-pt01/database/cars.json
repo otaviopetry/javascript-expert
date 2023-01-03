@@ -1,1 +1,16 @@
-[{"id":"6df0d6f5-ec1a-4508-a370-b3b013b894fe","name":"Model S","releaseYear":2021,"available":true,"gasAvailable":true},{"id":"fbf9e4b6-9f09-4f5d-9e48-2a488f8cec8f","name":"Golf","releaseYear":2021,"available":true,"gasAvailable":true}]
+[
+    {
+        "id": "6df0d6f5-ec1a-4508-a370-b3b013b894fe",
+        "name": "Model S",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "fbf9e4b6-9f09-4f5d-9e48-2a488f8cec8f",
+        "name": "Golf",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    }
+]
