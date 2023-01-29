@@ -1,6 +1,7 @@
 import database from './../database.json';
 import TerminalController from './terminalController.js';
 import Person from './person.js';
+import { save } from './repository.js';
 
 const DEFAULT_LANGUAGE = 'pt-BR';
 const STOP_TERMINAL_COMMAND = ':q';
@@ -23,6 +24,7 @@ async function mainLoop() {
 
         const person = Person.generateInstanceFromString(answer);
 
+        await save(person);
         terminalController.updateTable(person.formatted(DEFAULT_LANGUAGE));
 
         return mainLoop();
