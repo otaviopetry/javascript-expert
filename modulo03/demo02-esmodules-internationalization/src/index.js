@@ -8,7 +8,7 @@ const STOP_TERMINAL_COMMAND = ':q';
 const terminalController = new TerminalController();
 terminalController.initializeTerminal(database, DEFAULT_LANGUAGE);
 
-// 01 Carro 666000 2007-03-20 2012-05-20
+// 04 Carro 666000 2007-03-20 2012-05-20
 
 async function mainLoop() {
     try {
@@ -21,11 +21,9 @@ async function mainLoop() {
             return;
         }
 
-        const person = Person
-            .generateInstanceFromString(answer)
-            .formatted(DEFAULT_LANGUAGE);
-            
-        console.log('person', person);
+        const person = Person.generateInstanceFromString(answer);
+
+        terminalController.updateTable(person.formatted(DEFAULT_LANGUAGE));
 
         return mainLoop();
     } catch (error) {

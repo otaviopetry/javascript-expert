@@ -37,6 +37,11 @@ export default class TerminalController {
         this.data = data;
     }
 
+    updateTable(entry) {
+        this.data.push(entry);
+        this.print(chalkTable(this.getTableOptions(), this.data));
+    }
+
     question(message = '') {
         return new Promise(resolve => this.terminal.question(
             message,
