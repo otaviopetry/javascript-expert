@@ -1,1 +1,12 @@
-[{"id":"1","vehicles":["Motocicleta","Carro","Caminhão"],"kmTraveled":10000,"from":"2009-01-01","to":"2020-11-26"},{"id":"2","vehicles":["Carro","Ônibus","Jet Ski","SUV"],"kmTraveled":250000,"from":"2015-02-06","to":"2021-10-15"},{"id":"3","vehicles":["Carro","Motocicleta"],"kmTraveled":500000,"from":"2014-08-05","to":"2022-06-15"},{"id":"4","vehicles":["Bike"],"kmTraveled":"111000","from":"2012-03-10","to":"2020-01-15"}]
+[
+    {
+        "id": "1",
+        "vehicles": [
+            "Carro",
+            " Jet Ski"
+        ],
+        "kmTraveled": "5000",
+        "from": "2022-01-01",
+        "to": "2022-01-15"
+    }
+]

@@ -1,6 +1,6 @@
- import TerminalController from "./terminalController.js";
+"use strict";module.export({default:()=>Person});var TerminalController;module.link("./terminalController.js",{default(v){TerminalController=v}},0); 
 
-export default class Person {
+class Person {
     constructor({ id, vehicles, kmTraveled, from, to }) {
         this.id = id;
         this.vehicles = vehicles;
