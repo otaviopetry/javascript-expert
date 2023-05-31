@@ -1,0 +1,6 @@
+Pikachu, George
+Butterfree, Layla
+Graveler, Icarus Papadopoulos
+Ghastly, Samantha
+
+^(\w+),\s(\w+)$ - select pattern (last_name), (first_name)

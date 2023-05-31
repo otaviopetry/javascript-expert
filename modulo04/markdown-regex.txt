@@ -1,0 +1,9 @@
+Primeiro, refoga [cebola](http://www.wikipedia.com/cebola), [alho](https://www.wikipedia.com/alho) e [gengibre](http://www.wikipedia.com/gengibre) em um fio de óleo até ficarem dourados. Depois, adiciona grão de bico cozido, tomate picado, leite de coco e uma generosa pitada de curry em pó. Deixa tudo cozinhar por uns 20 minutos para que os sabores se integrem bem.
+
+Serve com [arroz](https://www.wikipedia.com/arroz) ou [pão](http://www.wikipedia.com/pao).
+
+Também fica bom com [palmito](https://www.wikipedia.com/palmito) no lugar de grão-de-bico.
+
+
+\[(.*?)\]\(([http|https].*?)\) - select links with separate groups for title and url
+<a href="$2">$1</a> - replace
