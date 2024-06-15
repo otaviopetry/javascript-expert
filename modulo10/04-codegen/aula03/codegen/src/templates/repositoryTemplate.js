@@ -1,6 +1,6 @@
-import Util from '../util';
+import Util from "../util.js";
 
-const componentNameAnchor = '$$componentName';
+const componentNameAnchor = "$$componentName";
 
 const template = `
 export default class $$componentNameRepository {

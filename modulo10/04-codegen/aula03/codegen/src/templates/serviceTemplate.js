@@ -1,4 +1,4 @@
-import Util from "../util";
+import Util from "../util.js";
 
 const componentNameAnchor = "$$componentName";
 const currentContextAnchor = "$$currentContext";
@@ -28,14 +28,14 @@ export default class $$componentNameService {
 }`;
 
 export function serviceTemplate(componentName, repositoryName) {
-  const currentContext = `this.${repositoryName}`;
-  const txtFile = template
-    .replaceAll(componentNameAnchor, Util.upperCaseFirstLetter(componentName))
-    .replaceAll(currentContextAnchor, currentContext)
-    .replaceAll(repositoryAnchor, repositoryName);
+    const currentContext = `this.${repositoryName}`;
+    const txtFile = template
+        .replaceAll(componentNameAnchor, Util.upperCaseFirstLetter(componentName))
+        .replaceAll(currentContextAnchor, currentContext)
+        .replaceAll(repositoryAnchor, repositoryName);
 
-  return {
-    fileName: `${componentName}Service`,
-    template: txtFile,
-  };
+    return {
+        fileName: `${componentName}Service`,
+        template: txtFile,
+    };
 }
